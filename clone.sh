@@ -2,7 +2,7 @@
 MINETEST_VERSION=5.2.0
 
 if [ ! -d irrlicht ]; then
-  svn co svn://svn.code.sf.net/p/irrlicht/code/branches/ogl-es irrlicht
+  svn co -r 5811 svn://svn.code.sf.net/p/irrlicht/code/branches/ogl-es irrlicht
 fi
 
 if [ ! -d minetest ]; then
