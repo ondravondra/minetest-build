@@ -12,4 +12,13 @@ sudo apt install \
   libpng-dev \
   libbz2-dev \
   libsqlite3-dev \
-  libleveldb-dev
+  libleveldb-dev \
+  libxxf86vm-dev \
+  libogg-dev \
+  libvorbis-dev \
+  libopenal-dev \
+  libcurl4-gnutls-dev \
+  libfreetype6-dev \
+  zlib1g-dev \
+  libgmp-dev \
+  libjsoncpp-dev
