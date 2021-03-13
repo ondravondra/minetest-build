@@ -3,7 +3,8 @@
 IRRDIR=`pwd`/irrlicht
 
 CC=clang CXX=clang++ cmake -S irrlicht -B irrlicht \
--DBUILD_SHARED_LIBS=OFF
+-DBUILD_SHARED_LIBS=OFF \
+-D_IRR_COMPILE_WITH_OGLES2_
 
 CC=clang CXX=clang++ make -j3 -C irrlicht
 
@@ -21,3 +22,5 @@ CC=clang CXX=clang++ cmake -S minetest -B minetest \
 -DOPENGLES2_LIBRARY=/usr/lib/arm-linux-gnueabihf/libGLESv2.so
 
 CC=clang CXX=clang++ make -j3 -C minetest
+
+cp -R irrlicht/media/Shaders minetest/client/shaders/Irrlicht
