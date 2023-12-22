@@ -8,7 +8,7 @@ clone() {
 }
 
 clone_mod_tenplus1() {
-  clone https://notabug.org/TenPlus1/$1 minetest/mods/$1
+  clone https://codeberg.org/TenPlus1/$1 minetest/mods/$1
 }
 
 clone_mod_tenplus1 mobs_redo
